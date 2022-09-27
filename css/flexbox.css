@@ -1,0 +1,83 @@
+.cabecalhoPrincipal-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cabecalhoPrincipal-nav {
+	display: flex;
+}
+
+.conteudoPrincipal {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.conteudoPrincipal-cursos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.conteudoPrincipal-cursos-link {
+	width: 22%;
+}
+
+.videoSobre {
+	width: 100%;
+}
+
+.videoSobre-container {
+	width: fit-content;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.videoSobre-sobre {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.videoSobre-button {
+	align-self: stretch;
+}
+
+
+.rodapePrincipal-navMap-list {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.navMap-list-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.rodapePrincipal-patrocinadores .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+	display: flex;
+	flex-grow: 1;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+	display: flex;
+}
+
+@media screen and {max-width: 768px}{
+	
+}
