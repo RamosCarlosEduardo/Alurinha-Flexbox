@@ -32,22 +32,21 @@
 }
 
 .videoSobre-container {
-	width: fit-content;
 	display: flex;
-	justify-content: space-between;
-	align-items: stretch;
+	justify-content: space-evenly;
+}
+.videoSobre-video {
+	flex-shrink: 5;
 }
 
 .videoSobre-sobre {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+	flex-grow: 0.5;
 	text-align: center;
 }
-
-.videoSobre-button {
-	align-self: stretch;
+.videoSobre-sobre-list {
+	flex-grow: 1;
 }
 
 
@@ -78,6 +77,49 @@
 	display: flex;
 }
 
-@media screen and {max-width: 768px}{
+@media screen and (max-width: 768px) {
 	
+	.cabecalhoPrincipal-container {
+		flex-direction: column;
+		align-items: stretch;
+		text-align: center;
+	}
+	.cabecalhoPrincipal-nav {
+		flex-direction: column;	
+	}
+
+	.cabecalhoPrincipal-nav-link-app {
+		order: -1;
+	}
+	.conteudoPrincipal-cursos {
+		flex-direction: column;
+	}
+
+	.conteudoPrincipal-cursos-link {
+		width: 100%
+	}
+
+	.videoSobre-container {
+		flex-direction: column;
+	}
+
+	.videoSobre-button {
+		align-self: center;
+		width: 70%;
+	}
+
+	.rodapePrincipal-navMap {
+		flex-direction: column;
+	}
+
+	.rodapePrincipal-navMap-list {
+		flex-direction: column;
+	}
+
+	.rodapePrincipal-patrocinadores .container {
+		flex-direction: column;
+	}
+	.rodapePrincipal-patrocinadores-list {
+		justify-content: space-between;
+	}
 }
